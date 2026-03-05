@@ -1,0 +1,13 @@
+[
+  { "name": "javax.swing.JFrame", "allDeclaredConstructors": true, "allDeclaredMethods": true },
+  { "name": "javax.swing.JPanel", "allDeclaredConstructors": true, "allDeclaredMethods": true },
+  { "name": "javax.swing.JButton", "allDeclaredConstructors": true, "allDeclaredMethods": true },
+  { "name": "javax.swing.JTextField", "allDeclaredConstructors": true, "allDeclaredMethods": true },
+  { "name": "javax.swing.JTextPane", "allDeclaredConstructors": true, "allDeclaredMethods": true },
+  { "name": "javax.swing.JScrollPane", "allDeclaredConstructors": true, "allDeclaredMethods": true },
+  { "name": "javax.swing.JLabel", "allDeclaredConstructors": true, "allDeclaredMethods": true },
+  { "name": "javax.swing.JProgressBar", "allDeclaredConstructors": true, "allDeclaredMethods": true },
+  { "name": "sun.swing.SwingUtilities2", "allDeclaredMethods": true },
+  { "name": "com.gitbro.MainKt", "allDeclaredMethods": true },
+  { "name": "com.gitbro.ui.GitbroGui", "allDeclaredConstructors": true, "allDeclaredMethods": true }
+]
