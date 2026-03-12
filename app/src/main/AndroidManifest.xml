@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        INTERNET permission: required for any network call.
+        Without this line, every Retrofit call silently fails.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Gitbro"
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <!--
+            An Activity is Android's concept of a "screen container".
+            We only have ONE Activity. Compose handles all the screen
+            switching internally — no need for multiple Activities.
+
+            LAUNCHER + MAIN = this is the screen that opens when
+            the user taps the app icon.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
