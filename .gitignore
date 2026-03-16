@@ -19,4 +19,4 @@ out/
 
 # GraalVM installer
 *.tar.gz
-*.zip
+*.zipAndroid/
