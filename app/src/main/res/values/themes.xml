@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--
-        This base theme is required by the AndroidManifest.
-        We override it immediately inside MainActivity with
-        our full Compose dark theme. The NoActionBar part
-        hides the old-style toolbar so Compose controls
-        the entire screen.
-    -->
-    <style name="Theme.Gitbro" parent="android:Theme.Material.NoTitleBar" />
+    <style name="Theme.Gitbro" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

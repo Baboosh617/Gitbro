@@ -20,3 +20,9 @@ out/
 # GraalVM installer
 *.tar.gz
 *.zipAndroid/
+
+
+local.properties
+wget-log
+*.zip
+*.zip.*
