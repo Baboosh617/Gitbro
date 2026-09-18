@@ -27,8 +27,7 @@
 
 ### Prerequisites
 
-- **JDK 17** or newer
-- **Gradle 8.7** (only needed once to generate the wrapper JAR — see below)
+- **JDK 17** or newer (Gradle itself is downloaded automatically by the wrapper)
 
 ### Build
 
@@ -36,11 +35,7 @@
 git clone https://github.com/Baboosh617/Gitbro.git
 cd Gitbro
 
-# The Gradle wrapper JAR isn't committed, so generate it once:
-gradle wrapper --gradle-version 8.7
-
-# Build the fat JAR
-./gradlew build
+./gradlew shadowJar
 ```
 
 The runnable JAR is written to `build/libs/gitbro-1.0.0.jar`.

@@ -1,7 +1,6 @@
 # Gradle
 .gradle/
 build/
-gradle/wrapper/gradle-wrapper.jar
 
 # IDE
 .vscode/
@@ -15,4 +14,5 @@ Thumbs.db
 # Kotlin compiled output
 *.class
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 out/
