@@ -4,14 +4,14 @@
 
 ## Features
 
-- 🔍 **Search any GitHub user** by username
-- 👤 **Profile overview** — name, bio, public repo count, followers, following
-- 📦 **Top 10 repositories**, ranked by stars, with description, ⭐ stars, 🍴 forks and language
-- 🔗 **Clickable links** that open profiles and repos in your browser
-- ⚡ **Quick-try examples** (`octocat`, `torvalds`, `gaearon`, `sindresorhus`) on the welcome screen
-- 🌙 **Dark theme** inspired by GitHub's own colour palette
-- 🧵 **Responsive UI** — network calls run in the background so the window never freezes
-- ❗ **Friendly error messages** for unknown users and API rate limits
+-  **Search any GitHub user** by username
+-  **Profile overview** — name, bio, public repo count, followers, following
+-  **Top 10 repositories**, ranked by stars, with description, ⭐ stars, 🍴 forks and language
+-  **Clickable links** that open profiles and repos in your browser
+-  **Quick-try examples** (`octocat`, `torvalds`, `gaearon`, `sindresorhus`) on the welcome screen
+-  **Dark theme** inspired by GitHub's own colour palette
+-  **Responsive UI** — network calls run in the background so the window never freezes
+-  **Friendly error messages** for unknown users and API rate limits
 
 ## Tech Stack
 
